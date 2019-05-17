@@ -165,7 +165,11 @@ INSERT INTO klassen_studenten(ov_nummer, klas_code) VALUES
 	(85183,'lo8e-amo3'),
 	(86521,'lo8e-amo1'),
 	(89429,'lo8e-amo4'),
-	(84565,'lo8e-amo2');
+	(84565,'lo8e-amo2'),
+    (90001, 'lo8e-amo4'),
+    (90002, 'lo8e-amo1'),
+    (90003, 'lo8e-amo2'),
+    (90004, 'lo8e-amo3');
     
 INSERT INTO vakken (vak_code, titel) VALUES
 	('PHP', 'PHP Hypertext Preprocessor'),
