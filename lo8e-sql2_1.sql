@@ -133,7 +133,11 @@ INSERT INTO studenten (ov_nummer, achternaam, tussenvoegsel, voornaam, geboorted
 	(86066,'Wijk','van','Nicky','1994-05-27','2411 AK','Bodegraven',  78.3, 1.86, '2018-01-01'),
 	(89429,'Wils','','Bob','1991-04-30','2231 ZX','Rijnsburg', 70.9, 1.90, '2018-01-01'),
 	(84565,'Yan','','Davy','1993-03-05','2408 JV','Alphen a/d Rijn', 71.1, 1.84, '2018-01-01'),
-	(87989,'Zwam','van der','Rick','1991-07-10','2201 SW','Noordwijk', 74.4, 1.87, '2018-01-01');
+	(87989,'Zwam','van der','Rick','1991-07-10','2201 SW','Noordwijk', 74.4, 1.87, '2018-01-01'),
+    (90001, 'Basropansingh', '', 'Anisha', '2002-11-30', '2721 BG', 'Zoetermeer', 49, 1.64, '2018-01-01'),
+    (90002, 'Pietersens', 'van', 'Alexander', '1995-04-08', '2222 WG', 'Leiden', 88, 1.80, '2018-01-01'),
+    (90003, 'Jeon', '', 'Jungkook', '1997-07-01', '4009 BB', 'Busan', 76, 1.79, '2018-01-01'),
+    (90004, 'Fapian', '', 'Homoop', '1900-01-01', '6969 KH', 'onderdebrug', 12, 1.38, '2018-01-01');
     
 INSERT INTO klassen_studenten(ov_nummer, klas_code) VALUES
 	(86476,'lo8e-amo1'),
