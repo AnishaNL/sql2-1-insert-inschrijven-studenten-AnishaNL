@@ -327,3 +327,7 @@ INSERT INTO cijfers (ov_nummer, vak_code, jaargang, periode, poging, cijfer)
 		INNER JOIN lessen ON lessen.klas_code = klassen.klas_code
 		WHERE klassen.cohort = 2017 AND lessen.jaargang = 1
     ) AS studenten_lessen;
+    
+UPDATE studenten
+SET geboortedatum = 1998-07-01
+WHERE ov_nummer = (90001);
